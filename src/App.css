@@ -1,0 +1,119 @@
+a {
+  text-decoration: none;
+  color: black;
+  width: 80px;
+  height: 25px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 20px;
+  border: 1px solid black;
+}
+
+.active {
+  color: white;
+  background-color: blueviolet;
+  border: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.clock {
+  font-size: 140px;
+  font-weight: 100;
+}
+
+
+.buttons button {
+  background-color: green;
+  color: white;
+  height: 35px;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.buttons button:hover {
+  background-color: rgb(46, 156, 46);
+  cursor: pointer;
+}
+
+.laps {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.lap-part {
+  background-color: rgb(244, 241, 241);
+  width: 70%;
+  margin: 60px auto;
+  padding: 10px;
+  min-height: 250px;
+}
+
+
+.timeR {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.timeInput {
+  width: 150px;
+  height: 30px;
+  padding: 6px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+.timebuttons {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  background-color: blueviolet;
+}
+
+.timebuttons:hover{
+  background-color: rgb(145, 79, 207);
+}
+
+
+.redbuttons {
+  background-color: rgb(201, 42, 42);
+  color: white;
+  height: 30px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.redbuttons:hover {
+  background-color: rgb(203, 62, 62);
+}
+
+
+.tasktimer h1 {
+  margin-top: 50px;
+}
+
+
+button:hover {
+  cursor: pointer;
+}
